@@ -27,7 +27,11 @@
     "url": "git+https://github.com/hobbyquaker/artnet.git"
   },
   "main": "./lib/artnet.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-event-emitter": "^0.0.1",
+    "react-native-udp": "^4.1.5",
+    "util": "^0.12.4"
+  },
   "bugs": {
     "url": "https://github.com/hobbyquaker/artnet/issues"
   },
